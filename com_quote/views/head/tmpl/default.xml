@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_QUOTE_QUOTE_HEAD_VIEW_ITEM_TITLE" option="COM_QUOTE_QUOTE_HEAD_VIEW_ITEM_DESC">
+		<help
+			key = "JHELP_MENUS_MENU_ITEM_HEAD_SINGLE_HEAD"
+		/>
+		<message>
+			<![CDATA[COM_QUOTE_QUOTE_HEAD_VIEW_ITEM_DESC]]>
+		</message>
+	</layout>
+
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_quote/models/fields">
+			<field
+				name="id"
+				type="modal_head"
+				description="COM_QUOTE_FIELD_SELECT_HEAD_DESC"
+				label="COM_QUOTE_FIELD_SELECT_HEAD_LABEL"
+				required="true"
+				edit="true"
+				clear="false"
+			/>
+		</fieldset>
+	</fields>
+
+	<!-- Add fields to the parameters object for the layout. -->
+	<fields name="params">
+		<!-- Basic options. -->
+		<fieldset name="basic" label="COM_QUOTE_FIELDSET_MORE_OPTIONS_LABEL">
+		</fieldset>
+	</fields>
+</metadata>
